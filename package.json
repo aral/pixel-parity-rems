@@ -1,0 +1,27 @@
+{
+  "name": "responsive-pixels",
+  "version": "0.0.0",
+  "description": "Because web development shouldn’t require a calculator.",
+  "main": "index.styl",
+  "scripts": {
+    "preinstall": "coffee -c dom-style-test-runner.coffee && rm -rf css && mkdir -p css && stylus . -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aral/responsive-pixels"
+  },
+  "keywords": [
+    "stylus",
+    "css",
+    "responsive"
+  ],
+  "author": "Aral Balkan",
+  "bugs": {
+    "url": "https://github.com/aral/responsive-pixels/issues"
+  },
+  "homepage": "https://github.com/aral/responsive-pixels",
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "stylus": "~0.41.0"
+  }
+}
